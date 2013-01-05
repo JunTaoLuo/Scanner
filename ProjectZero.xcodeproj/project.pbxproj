@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46016C461698270500267E72 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46016C3A169826EB00267E72 /* libZXingObjC-iOS.a */; };
+		46016C481698271800267E72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46016C471698271800267E72 /* AVFoundation.framework */; };
+		46016C4A1698272300267E72 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46016C491698272300267E72 /* CoreVideo.framework */; };
+		46016C4C1698272A00267E72 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46016C4B1698272A00267E72 /* ImageIO.framework */; };
 		63F7BD4D169138E200EAE9A5 /* 89.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7BD49169138E200EAE9A5 /* 89.jpg */; };
 		63F7BD4E169138E200EAE9A5 /* blank-clipboard-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7BD4A169138E200EAE9A5 /* blank-clipboard-icon.jpg */; };
 		63F7BD4F169138E200EAE9A5 /* e-prescribe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63F7BD4B169138E200EAE9A5 /* e-prescribe.jpg */; };
@@ -54,6 +58,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		46016C39169826EB00267E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25403CB3166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
+		};
+		46016C3B169826EB00267E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25403CC4166A96FA00E13304;
+			remoteInfo = "ZXingObjCTests-iOS";
+		};
+		46016C3D169826EB00267E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25404166166AADAC00E13304;
+			remoteInfo = "ZXingObjC-osx";
+		};
+		46016C3F169826EB00267E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25404178166AADAC00E13304;
+			remoteInfo = "ZXingObjCTests-osx";
+		};
+		46016C41169826EB00267E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2540439E166ABA0A00E13304;
+			remoteInfo = "OS X Framework";
+		};
+		46016C44169826FF00267E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25403CB2166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
+		};
 		DBD8934E16894FE8005C0B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DBD8931916894FE8005C0B87 /* Project object */;
@@ -64,6 +110,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = ../ZXingObjC/ZXingObjC.xcodeproj; sourceTree = "<group>"; };
+		46016C471698271800267E72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		46016C491698272300267E72 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		46016C4B1698272A00267E72 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		63F7BD49169138E200EAE9A5 /* 89.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 89.jpg; sourceTree = "<group>"; };
 		63F7BD4A169138E200EAE9A5 /* blank-clipboard-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blank-clipboard-icon.jpg"; sourceTree = "<group>"; };
 		63F7BD4B169138E200EAE9A5 /* e-prescribe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "e-prescribe.jpg"; sourceTree = "<group>"; };
@@ -139,6 +189,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46016C4C1698272A00267E72 /* ImageIO.framework in Frameworks */,
+				46016C4A1698272300267E72 /* CoreVideo.framework in Frameworks */,
+				46016C481698271800267E72 /* AVFoundation.framework in Frameworks */,
+				46016C461698270500267E72 /* libZXingObjC-iOS.a in Frameworks */,
 				DB710C6A168BF2210029847F /* CoreLocation.framework in Frameworks */,
 				DB710C5A168BEB370029847F /* MapKit.framework in Frameworks */,
 				DBD8932716894FE8005C0B87 /* UIKit.framework in Frameworks */,
@@ -160,6 +214,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46016C2E169826EA00267E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46016C3A169826EB00267E72 /* libZXingObjC-iOS.a */,
+				46016C3C169826EB00267E72 /* ZXingObjCTests-iOS.octest */,
+				46016C3E169826EB00267E72 /* libZXingObjC-osx.a */,
+				46016C40169826EB00267E72 /* ZXingObjCTests-osx.octest */,
+				46016C42169826EB00267E72 /* ZXingObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		63F7BD48169138E200EAE9A5 /* artwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +291,10 @@
 		DBD8931716894FE8005C0B87 = {
 			isa = PBXGroup;
 			children = (
+				46016C4B1698272A00267E72 /* ImageIO.framework */,
+				46016C491698272300267E72 /* CoreVideo.framework */,
+				46016C471698271800267E72 /* AVFoundation.framework */,
+				46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */,
 				DB67F51A1697B97C009097BD /* PharmaHomeViewController.h */,
 				DB67F51B1697B97C009097BD /* PharmaHomeViewController.m */,
 				DB1C6A7516916CA300D08169 /* ViewControllers */,
@@ -321,6 +391,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				46016C45169826FF00267E72 /* PBXTargetDependency */,
 			);
 			name = ProjectZero;
 			productName = ProjectZero;
@@ -365,6 +436,12 @@
 			mainGroup = DBD8931716894FE8005C0B87;
 			productRefGroup = DBD8932316894FE8005C0B87 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46016C2E169826EA00267E72 /* Products */;
+					ProjectRef = 46016C2D169826EA00267E72 /* ZXingObjC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DBD8932116894FE8005C0B87 /* ProjectZero */,
@@ -372,6 +449,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46016C3A169826EB00267E72 /* libZXingObjC-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-iOS.a";
+			remoteRef = 46016C39169826EB00267E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46016C3C169826EB00267E72 /* ZXingObjCTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ZXingObjCTests-iOS.octest";
+			remoteRef = 46016C3B169826EB00267E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46016C3E169826EB00267E72 /* libZXingObjC-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-osx.a";
+			remoteRef = 46016C3D169826EB00267E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46016C40169826EB00267E72 /* ZXingObjCTests-osx.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ZXingObjCTests-osx.octest";
+			remoteRef = 46016C3F169826EB00267E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46016C42169826EB00267E72 /* ZXingObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZXingObjC.framework;
+			remoteRef = 46016C41169826EB00267E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DBD8932016894FE8005C0B87 /* Resources */ = {
@@ -460,6 +575,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		46016C45169826FF00267E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZXingObjC-iOS";
+			targetProxy = 46016C44169826FF00267E72 /* PBXContainerItemProxy */;
+		};
 		DBD8934F16894FE8005C0B87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DBD8932116894FE8005C0B87 /* ProjectZero */;
